@@ -56,11 +56,13 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
+<img width="794" height="222" alt="Screenshot 2026-05-10 124827" src="https://github.com/user-attachments/assets/c4db58bc-ed53-493e-9cf0-d95b01f56f11" />
 
  
 diff file1 file2
 ## OUTPUT
 
+<img width="800" height="269" alt="Screenshot 2026-05-10 124851" src="https://github.com/user-attachments/assets/1d2128f7-749b-43bd-b0cb-e076c1597410" />
 
 #Filters
 
@@ -84,16 +86,21 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="802" height="99" alt="Screenshot 2026-05-10 125100" src="https://github.com/user-attachments/assets/68724968-2967-454e-9638-54bf40b8b5eb" />
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="959" height="122" alt="Screenshot 2026-05-10 130959" src="https://github.com/user-attachments/assets/acfae1a3-c031-4cef-9aad-6ef9f176868d" />
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+<img width="959" height="121" alt="Screenshot 2026-05-10 131015" src="https://github.com/user-attachments/assets/c4c7c9eb-1aa7-48ad-b533-a364112d0dea" />
 
 
 cat < newfile 
@@ -110,33 +117,41 @@ grep Hello newfile
 ## OUTPUT
 
 
+<img width="809" height="74" alt="Screenshot 2026-05-10 125744" src="https://github.com/user-attachments/assets/5d96fdc8-d43b-4e62-8fc7-6b32f038541c" />
 
 grep hello newfile 
 ## OUTPUT
 
+
+<img width="809" height="74" alt="Screenshot 2026-05-10 125744" src="https://github.com/user-attachments/assets/eb31a059-8671-43a7-b375-9e60bb090a65" />
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="810" height="67" alt="Screenshot 2026-05-10 125845" src="https://github.com/user-attachments/assets/19e6d987-7963-417a-ab59-21d3711f1211" />
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="811" height="97" alt="Screenshot 2026-05-10 125909" src="https://github.com/user-attachments/assets/71cab7b9-7b3b-46bc-b08e-c1b19b4d1f46" />
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="802" height="73" alt="Screenshot 2026-05-10 130045" src="https://github.com/user-attachments/assets/d6031361-aaa4-41d1-9dba-b7251b67f8d4" />
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="950" height="790" alt="Screenshot 2026-05-10 130212" src="https://github.com/user-attachments/assets/5935fa0b-0b80-4d44-85de-e19c223b8b2d" />
 
 
 grep -w -n world newfile   
