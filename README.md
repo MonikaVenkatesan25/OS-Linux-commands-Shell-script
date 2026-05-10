@@ -470,6 +470,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="803" height="127" alt="Screenshot 2026-05-10 142644" src="https://github.com/user-attachments/assets/7a548441-7a10-40a7-952a-6271cbd29099" />
 
 
 cat < scriptest.sh 
@@ -509,22 +510,27 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
- 
+ <img width="772" height="302" alt="Screenshot 2026-05-10 143657" src="https://github.com/user-attachments/assets/a8537e01-a652-46e4-8f5d-800a007d8c74" />
+
 ls file1
 ## OUTPUT
+<img width="562" height="70" alt="Screenshot 2026-05-10 143754" src="https://github.com/user-attachments/assets/e3f85e71-177f-4a48-8dec-c91d92cb24cf" />
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+ <img width="696" height="70" alt="Screenshot 2026-05-10 143847" src="https://github.com/user-attachments/assets/9d659628-c84e-4709-83cf-259200fc59a9" />
+
 echo $?
 ## OUTPUT 
- 
+ <img width="548" height="77" alt="Screenshot 2026-05-10 143937" src="https://github.com/user-attachments/assets/eff8274c-7fc3-4e58-8b2e-5d1005abf4c3" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="696" height="70" alt="Screenshot 2026-05-10 143847" src="https://github.com/user-attachments/assets/ee4c88d7-768d-483f-bb17-52529c0af7ba" />
 
 
  
