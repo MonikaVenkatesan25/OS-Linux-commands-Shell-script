@@ -156,6 +156,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="958" height="100" alt="Screenshot 2026-05-10 131349" src="https://github.com/user-attachments/assets/7a21b8e0-1358-4748-a9ea-22707b568aa8" />
 
 
 cat < newfile 
@@ -180,6 +181,7 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
+<img width="951" height="92" alt="Screenshot 2026-05-10 131423" src="https://github.com/user-attachments/assets/56763b55-143f-4664-9284-1caf6210dc95" />
 
 
 egrep -w '(H|h)ello' newfile 
@@ -193,8 +195,10 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 
 
+
 egrep '(^hello)' newfile 
 ## OUTPUT
+
 
 
 
@@ -203,8 +207,10 @@ egrep '(world$)' newfile
 
 
 
+
 egrep '(World$)' newfile 
 ## OUTPUT
+
 
 
 egrep '((W|w)orld$)' newfile 
