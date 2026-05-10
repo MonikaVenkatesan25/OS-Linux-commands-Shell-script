@@ -371,6 +371,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="935" height="176" alt="Screenshot 2026-05-10 141110" src="https://github.com/user-attachments/assets/0d17eab4-4701-43c5-b88e-77222a0c5c39" />
 
 
 cat > file22
@@ -391,6 +392,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="945" height="255" alt="Screenshot 2026-05-10 141400" src="https://github.com/user-attachments/assets/ae39d951-2c33-4320-b610-3511ce953f93" />
 
 cat < urllist.txt
 ```
@@ -407,17 +409,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="934" height="130" alt="Screenshot 2026-05-10 141627" src="https://github.com/user-attachments/assets/7966a538-39f5-4409-bf61-816b8ad5a123" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="917" height="124" alt="Screenshot 2026-05-10 141645" src="https://github.com/user-attachments/assets/34e9e6fe-f7c4-492a-97e7-545a1bbb4192" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="962" height="787" alt="Screenshot 2026-05-10 141734" src="https://github.com/user-attachments/assets/b94b91a5-c17d-41fb-9c4f-760487077e2d" />
 
 
 mkdir backupdir
@@ -428,10 +433,12 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="931" height="786" alt="Screenshot 2026-05-10 141840" src="https://github.com/user-attachments/assets/8eb2507a-8dbd-4cd4-9c88-6e29658fc883" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="940" height="782" alt="Screenshot 2026-05-10 141928" src="https://github.com/user-attachments/assets/e6ed7e9d-41d4-4017-b2a3-d4c2c7f9f13c" />
 
 gzip backup.tar
 
@@ -450,6 +457,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="803" height="127" alt="Screenshot 2026-05-10 142644" src="https://github.com/user-attachments/assets/e212336d-4cae-46eb-8d61-0b125b3ba7c6" />
 
  
 cat << stop > herecheck.txt
